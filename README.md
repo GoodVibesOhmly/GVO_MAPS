@@ -6,8 +6,6 @@ A privacy-first location-based dapp to share magic places & reward participation
 
 # GVO-Maps-React-Native
 
-[![Donate with Ethereum](https://en.cryptobadges.io/badge/micro/0xF6E8156B3001C177C6aA35D90F7D643FF52a960d)](https://en.cryptobadges.io/donate/0xF6E8156B3001C177C6aA35D90F7D643FF52a960d)
-
 We are currently working on the backend code of our MVP. Below are some thoughts and ideas about Web3 & DeFi tools to tokenize media, travel & real estate. You can read more on (https://www.livethelife.tv). Next challenge: legal framework and pre-seed fundraising. As much as we love the roadmap below, if you read up on https://fairmint.co/ you can see that today there is solution that is plug & play. The catch: we need to qualify to use the fairmint platform. So we need to consider USA incorporation, before we deploy.    
 
 # UI/UX Interface
@@ -23,14 +21,6 @@ GVO is an ERC-20 token. It will be used to stake in the system, and as a governa
 # Distribution
 
 The challenge is getting enough revenue soon enough, for teams to be able to keep contributing. Revenue generation can draw on ideas from Web1 & Web2 businesses — but with less extractive rates. Importantly, the token must be designed such that its value rises as usage rises. But there’s still one big problem: too little revenue, too late. I’ll elaborate. If rates are too high, it will either get forked and re-deployed with lower rates, or it won’t get adopted because it’s seen as too extractive. If rates are too low (and usage isn’t sufficient) then revenue is too low. Either way, teams won’t have enough funding to keep growing the project. They will stoically or heroically keep going for a while, until they can’t feed their family. Some may pull through. And most will be forced to stop, at which point the project begins its fade into oblivion. Good news! We can overcome the challenge of “too little revenue, too late”. It takes a key change: rather than disburse all the tokens at the beginning of the project, disburse a large fraction of tokens over a much longer period of time to the workers that are adding value to the project. This gives teams a longer runway to iterate towards product-market fit (PMF), and more funds to catalyze growth once PMF is achieved.
-
-# Governance
-
-The $GVO token will be the system’s governance token, empowering $GVO holders to vote on updates to the platform. Combining governance mechanisms and incentivizing holders, it will serve as a means to align the different stakeholders in the system. $GVO will also serve as a security and policy management medium. Decentralized, automated governance, that incentivizes participants and aims for security, sustainability, and participant welfare is key to a protocol’s success.
-
-# DAO First Approach
-
-LiveTheLifeTV is taking a “DAO First Approach” to spinning up the protocol, choosing to use decentralized tools from the start to achieve our final goal of complete decentralization and having a flexible smart contract system able to add / upgrade / remove functionality all based on DAO proposals. 
 
 # Development Introduction
 
@@ -58,8 +48,6 @@ Similar to Swarm, allow users to get rewarded for visiting real-world locations,
 Incentivise anyone using the LTL Maps app to travel to a location, and get rewarded for spending quality time. Experimentation and iteration will be required to optimize the model and establish best practices. We explore the idea of having LTL Maps and it's Community to be owned and developed by two Aragon DAO's with a legal wrapper.
 
 # Smart Contracts
-
-Because we want to have a completely decentralized system, our whole infrastructure is based around a community driven DAO. The DAO will be the owner of the core contracts of the system and will be able to define what the contracts are able to do.
 
 To keep the core philosophy of having a completely decentralized system, we will use a decentralized oracle system such as Chainlink. This will allow us to do off-chain computation that can be later used on-chain. Of course this off-chain system can be replaced and upgraded by the DAO.
 
